@@ -9,11 +9,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ghBg: "#0d1117",      // Main background canvas
-        ghSection: "#161b22", // Sidebar and card background
-        ghBorder: "#30363d",  // Thin lines and borders
-        ghText: "#e6edf3",    // Primary light text
-        ghTextMuted: "#848d97", // Secondary gray text
+        ghBg: "#0d1117",      // Exact GitHub dark mode canvas background
+        ghSection: "#161b22", // Exact GitHub card/section fill
+        ghBorder: "#30363d",  // Muted, subtle border lines (not harsh white)
+        ghText: "#e6edf3",    // Crisp text color
+        ghTextMuted: "#8d96a0", // Secondary gray text
         ghSuccess: "#238636"  // Iconic green button
       },
     },

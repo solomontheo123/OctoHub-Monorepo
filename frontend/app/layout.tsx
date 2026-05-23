@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "./components/Navbar"; // Import our new Navbar
 
 export const metadata: Metadata = {
   title: "OctoHub - GitHub Analytics Client",
@@ -13,9 +12,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
-        <Navbar /> {/* This injects the top bar globally */}
+    <html lang="en" className="bg-ghBg">
+      <body className="bg-ghBg antialiased">
+        {/* We removed the <Navbar /> tag from here entirely */}
         {children}
       </body>
     </html>
